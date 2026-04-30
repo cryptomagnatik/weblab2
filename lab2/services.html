@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenWorld Travel - Послуги</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header">
+            <h2>OpenWorld Travel</h2>
+
+            <nav>
+                <a href="index.html">Головна</a>
+                <a href="services.html">Послуги</a>
+                <a href="contacts.html">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container section">
+            <h1 class="title">Наші туристичні послуги</h1>
+
+            <p>
+                Компанія OpenWorld Travel пропонує широкий вибір туристичних турів
+                до популярних напрямків світу. Оберіть тур або додаткову послугу та додайте її до кошика.
+            </p>
+
+            <h2 class="subtitle">Тури</h2>
+
+            <p class="info-text">
+                Ціна туру вказана за 1 людину. Для однієї людини враховується доплата за одномісне розміщення,
+                а для групи з 3–5 людей застосовується невелика групова знижка.
+            </p>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Фото</th>
+                            <th>Країна</th>
+                            <th>Місто</th>
+                            <th>Тривалість</th>
+                            <th>Ціна за 1 людину</th>
+                            <th>Людей</th>
+                            <th>Дія</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tours-list">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="subtitle">Додаткові послуги</h2>
+
+            <div class="extra-services" id="extra-services">
+
+            </div>
+
+            <h2 class="subtitle">Кошик замовлення</h2>
+
+            <div class="cart">
+                <div id="cart-items">
+
+                </div>
+
+                <div class="cart-total">
+                    Разом: <span id="cart-total">0 грн</span>
+                </div>
+
+                <div class="cart-buttons">
+                    <button type="button" class="order-btn" id="order-btn">
+                        Замовити
+                    </button>
+
+                    <button type="button" class="clear-btn" id="clear-cart">
+                        Очистити кошик
+                    </button>
+                </div>
+            </div>
+
+            <h2 class="subtitle">Раннє бронювання</h2>
+
+            <form class="form">
+                <input type="text" placeholder="Ваше ім'я">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Телефон">
+                <input type="text" placeholder="Країна">
+                <input type="date">
+                <textarea placeholder="Коментар"></textarea>
+                <button type="submit">Забронювати тур</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 OpenWorld Travel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
